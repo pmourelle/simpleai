@@ -45,6 +45,7 @@ This problem tries to create the string "HELLO WORLD" using the A* algorithm:
 
     GOAL = 'HELLO WORLD'
 
+
     class HelloProblem(SearchProblem):
         def actions(self, state):
             if len(state) < len(GOAL):
